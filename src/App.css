@@ -28,6 +28,103 @@
   color: #61dafb;
 }
 
+.link {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: lightpink;
+}
+.logo {
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-left: 10px;
+}
+.logo::first-letter {
+  font-size: 40px;
+}
+.nav {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(166, 184, 227, 1) 84%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.navLinks {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-right: 20px;
+}
+.home {
+}
+.title {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(166, 184, 227, 1) 84%,
+    rgba(148, 187, 233, 1) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 8rem;
+  font-weight: bolder;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin: 20px;
+  font-size: 30px;
+}
+.para1 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.para2 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.linksToPage{
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: rgb(230,175,205);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
